@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  font-size: 14px;
+  color: #ce9797;
+  background: linear-gradient(135deg, white, #fff5f5);
+}
+
+h1 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  line-height: 1.1;
+  letter-spacing: 12px;
+}
+
+p {
+  line-height: 1.7;
+}
+
+header {
+  width: 100%;
+}
+
+.header-container {
+  width: 80%;
+  margin: auto;
+}
+
+.header-container img {
+  margin: 2em 0;
+}
+
+.hero {
+  width: 100%;
+}
+
+.hero-mob {
+  width: 100vw;
+}
+
+.hero-desk {
+  display: none;
+}
+
+.main {
+  text-align: center;
+}
+
+.main-wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.main-wrapper p {
+  margin-top: 1em;
+}
+
+.main-header {
+  margin-top: 2em;
+  color: #413a3a;
+}
+
+.main-header span {
+  font-weight: 300;
+  color: #ce9797;
+}
+
+.main-form {
+  display: block;
+  margin-top: 2.5em;
+  position: relative;
+}
+
+.main-form input {
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 15px 25px;
+  width: 100%;
+  font-size: 1.1em;
+  color: #413a3a;
+  border: 1px solid #ce9797;
+  border-radius: 100px;
+  background-color: transparent;
+  vertical-align: middle;
+}
+
+.main-form input::-webkit-input-placeholder {
+  color: rgba(206, 151, 151, 0.5);
+  font-size: 1.1em;
+}
+
+.main-form input:-ms-input-placeholder {
+  color: rgba(206, 151, 151, 0.5);
+  font-size: 1.1em;
+}
+
+.main-form input::-ms-input-placeholder {
+  color: rgba(206, 151, 151, 0.5);
+  font-size: 1.1em;
+}
+
+.main-form input::placeholder {
+  color: rgba(206, 151, 151, 0.5);
+  font-size: 1.1em;
+}
+
+.main-form button {
+  position: absolute;
+  height: 100%;
+  width: 70px;
+  right: 0;
+  border-radius: 100px;
+  border: none;
+  background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  -webkit-box-shadow: 0 10px 15px 1px rgba(249, 98, 98, 0.2);
+          box-shadow: 0 10px 15px 1px rgba(249, 98, 98, 0.2);
+}
+
+.main-form button img {
+  vertical-align: middle;
+}
+/*# sourceMappingURL=main.css.map */
