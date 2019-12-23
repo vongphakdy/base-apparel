@@ -42,9 +42,6 @@ header {
     }
 }
 
-.hero {
-    width: 100%;
-}
 .hero-mob {
     width: 100vw;
 }
@@ -119,3 +116,37 @@ header {
         transform: translateY(50%);
     }
 }
+
+// @media screen and (min-width: 813px) {
+//     body {
+//         background: url("/images/bg-pattern-desktop.svg");
+//         // background-size: cover;
+//     }
+//     .header-container {
+//         display: none;
+//     }
+
+//     .wrapper {
+//         display: flex;
+//         flex-direction: row-reverse;
+//         justify-content: flex-start;
+//     }
+//     .hero-mob {
+//         display: none;
+//     }
+//     .hero-desk {
+//         display: block;
+//         // width: 40%;
+//         height: 100vh;
+//         float: right;
+//     }
+
+//     .main {
+//         text-align: left;
+//         width: 100%;
+//     }
+//     .main-wrapper {
+//         width: 50%;
+//     }
+
+// }
