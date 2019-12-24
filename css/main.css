@@ -20,7 +20,7 @@ h1 {
   font-size: 2.5em;
   text-transform: uppercase;
   line-height: 1.1;
-  letter-spacing: 12px;
+  letter-spacing: 14px;
 }
 
 p {
@@ -63,6 +63,10 @@ header {
 
 .main-wrapper p {
   margin-top: 1em;
+}
+
+.desk-logo {
+  display: none;
 }
 
 .main-header {
@@ -142,5 +146,45 @@ header {
   right: 80px;
   -webkit-transform: translateY(50%);
           transform: translateY(50%);
+}
+
+@media screen and (min-width: 813px) {
+  h1 {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .header-container {
+    display: none;
+  }
+  .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .hero-mob {
+    display: none;
+  }
+  .hero-desk {
+    display: block;
+    height: 100vh;
+    justify-self: flex-start;
+  }
+  .desk-logo {
+    display: block;
+  }
+  .main {
+    background: url("/images/bg-pattern-desktop.svg") no-repeat;
+    text-align: left;
+  }
+  .main-wrapper {
+    width: 53%;
+    margin: 4rem auto auto 20%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
