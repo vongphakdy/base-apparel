@@ -124,7 +124,7 @@ header {
   font-size: 0.9em;
 }
 
-.main-form button {
+.main-form .mainBtn {
   position: absolute;
   height: 49px;
   width: 70px;
@@ -137,7 +137,7 @@ header {
   cursor: pointer;
 }
 
-.main-form button img {
+.main-form .mainBtn img {
   vertical-align: middle;
 }
 
