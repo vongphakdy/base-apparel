@@ -16,5 +16,9 @@ form.addEventListener("submit", (e) => {
         e.preventDefault();
         imgWarning.classList.remove("none");
         txtWarning.classList.remove("none");
-    } 
+    } else {
+        e.preventDefault();
+        imgWarning.classList.add("none");
+        txtWarning.classList.add("none");
+    }
 })
